@@ -4,8 +4,14 @@
   "description": "Tp front end con type script, con funciones basicas de arreglos",
   "main": "index.js",
   "scripts": {
+    "build": "tsc ./index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "TypeScript",
+    "Bootstrap",
+    "DOM"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DarioLopez18/TpFronEndTypeScript.git"
@@ -15,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/DarioLopez18/TpFronEndTypeScript/issues"
   },
-  "homepage": "https://github.com/DarioLopez18/TpFronEndTypeScript#readme"
+  "homepage": "https://github.com/DarioLopez18/TpFronEndTypeScript#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
